@@ -22,7 +22,7 @@ const App = React.createClass({
 
     return (
       <div className='container'>
-        <h1>Simple Name List</h1>
+        <h1>Simple List</h1>
         <NameForm addName={this.addName} />
         <NameList names={names} />
       </div>
